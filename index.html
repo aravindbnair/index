@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstall</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <!-- navbar -->
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img width="300px" src="https://openlibrary.org/static/images/openlibrary-logo-tighter.svg" alt="">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#books">BOOKS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <br><br>
+  <h2 class="text-center">TRENDING READING BOOKS</h2>
+  <!-- carousel -->
+
+  <section id="home">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img  width="200px" src="https://s26162.pcdn.co/wp-content/uploads/2018/06/covertrend.jpg" class="d-block mx-auto w-75" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://static01.nyt.com/images/2022/07/01/books/00JULY-BOOKS-COMBO/00JULY-BOOKS-COMBO-videoSixteenByNineJumbo1600-v2.jpg" class="d-block mx-auto w-75" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://ca-times.brightspotcdn.com/dims4/default/046425a/2147483647/strip/true/crop/1800x1203+0+0/resize/1200x802!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F9b%2Fcf%2F0d6ab6ae412eb3308e3c28be8d87%2Fla-et-jc-10-books-to-read-in-january.jpg" class="d-block mx-auto w-75" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <br><br>
+  </section>
+<!-- about us -->
+ <section id="about">
+   <div class="row ">
+    <div class="col-6">
+      <h1 class="text-center">About us</h1>
+      <p>One web page for every book ever published. It's a lofty but achievable goal.
+  
+        To build Open Library, we need hundreds of millions of book records, a wiki interface, and lots of people who are willing to contribute their time and effort to building the site.
+        
+        To date, we have gathered over 20 million records from a variety of large catalogs as well as single contributions, with more on the way.
+        
+        Open Library is an open project: the software is open, the data are open, the documentation is open, and we welcome your contribution. Whether you fix a typo, add a book, or write a widget--it's all welcome. We have a small team of fantastic programmers who have accomplished a lot, but we can't do it alone!
+        
+        Open Library is a project of the non-profit Internet Archive, and has been funded in part by a grant from the California State Library and the Kahle/Austin Foundation.</p>
+    </div>
+ 
+  <div class="col-6">
+    <h3>For more information</h3>
+    <a href="">visit the blog</a><br>
+    <a href="">Read our FAQ</a><br>
+    <a href="">Contact Us</a><br>
+    <a href="">Make a Donation</a><br>
+    <a href="">The Team </a>
+  </div>
+ </div>
+</section>
+
+<!-- cards -->
+
+ <section id="books">
+   <h1 class="text-center">LIST OF BOOKS</h1>
+   <br><br>
+  <!-- Button trigger modal -->
+  
+  <div class="row">
+    <div class="col-md-4">
+      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal1">
+        <img class=" w-75" src="https://m.media-amazon.com/images/I/91WqeCn-PxL._AC_UF1000,1000_QL80_.jpg" alt="">
+        <h2>Harrypotter</h2>
+      
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="card" style="width: 18rem;">
+                <img class="img" src="https://m.media-amazon.com/images/I/818umIdoruL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Harrypotter</h5>
+                  <p class="card-text">Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">BUY</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  <!-- modal2 -->
+   <!-- Button trigger modal -->
+  <div class="col-md-4">
+    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+      <img class=" w-75 " src="https://m.media-amazon.com/images/I/71KKZlVjbwL._AC_UF1000,1000_QL80_.jpg" alt="">
+      <h2>Wings of Fire</h2>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="card" style="width: 18rem;">
+              <img src="https://m.media-amazon.com/images/I/71KKZlVjbwL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Wings of Fire (1999), is the autobiography of the Missile Man of India and the former President of India, Dr. A. P. J. Abdul Kalam. It was written by him and Arun Tiwari.[</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal3 -->
+   <!-- Button trigger modal -->
+  <div class="col-md-4">
+    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+      <img  class=" w-75 " src="https://m.media-amazon.com/images/I/81dj-KUDWUL._AC_UF1000,1000_QL80_.jpg" alt="">
+      <h2 >Fifty Shades
+        
+      </h2>
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="card" style="width: 18rem;">
+              <img src="https://m.media-amazon.com/images/I/810BkqRP+iL._SY466_.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fifty Shades</h5>
+                <p class="card-text">Fifty Shades of Grey is a 2011 romance novel by British author E. L. James.[1] It became the first installment in the Fifty Shades novel series that follows the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey.</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <br><br>
+  <br><br>
+ </section>
+<hr>
+<div class=" container-fluid ">
+  <div class="row">
+      <div class="col-lg-4"><h1 class="fs-5"><img width="250px" src="https://openlibrary.org/static/images/openlibrary-logo-tighter.svg" alt=""></i> <br>Open Library is an open, editable library catalog, building towards a web page for every book ever published. <a href="more">more</a></h1>
+          <p></p></div>
+  
+  
+      <div class="col-4">
+          <div class="row">
+              <div class="col-lg-6"><h3>open library</h3>
+                  <a href="">Home</a><br>
+                  <a href="">About us</a> <br>
+                  <a href="">partners</a><br>
+                  <a href="">careers</a><br>
+                  <a href="">Themes</a><br>
+                  <a href="">Blog</a><br>
+                  <a href="">Donate</a><br>
+              </div>
+              <div class="col-lg-6"><h3>Discover</h3>
+                  <a href="">vision</a><br>
+                  <a href="">subjects</a> <br>
+                  <a href="">collection</a><br>
+                  <a href="">Return to shop</a><br>
+              </div>
+          </div>
+      </div>
+    
+    
+    
+    
+    
+    
+      <div class="col-4">
+          <div class="row">
+              <div class="col-lg-6"><h3>Develop</h3>
+                  <a href="">
+                    Developer Center</a><br>
+                  <a href="">API Documentation</a> <br>
+                  <a href="">Bulk Data Dumps
+                    </a><br>
+                  <a href="">Writing Bots</a><br>
+              </div>
+              <div class="col-lg-6"><h3>Help</h3>
+                  <a href="">Issues</a><br>
+                  <a href="">Help center</a> <br>
+                  <a href="">Add a book</a><br>
+                  <a href="">Release a note</a><br>
+              </div>
+          </div>
+      </div>
+      
+     </div>
+</body>
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
